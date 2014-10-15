@@ -12,21 +12,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'addressable', '~> 2.3.6'
-
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0.0.beta4'
   gem 'spring'
   gem 'rspec-rails', '~> 3.0.0'
   gem 'factory_girl_rails'
-end
-
-group :test do
-  gem "faker"
-  gem "capybara"
-  gem "database_cleaner"
-  gem "launchy"
-  gem "selenium-webdriver"
-  gem 'shoulda-matchers', '~> 2.6.0'
 end
